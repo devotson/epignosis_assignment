@@ -11,6 +11,7 @@
 
     let messagediv = document.getElementById("response_div");
 
+    messagediv.style.display = "block";
     messagediv.style.color = "#000";
     messagediv.style.padding = "20px";
     messagediv.innerHTML = result.message;

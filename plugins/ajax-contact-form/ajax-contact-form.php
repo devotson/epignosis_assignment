@@ -7,7 +7,7 @@
 function epig_contact_form() {
     $content = '';
 
-    $content .= '<div id="response_div" class="alert" role="alert"></div>';
+    $content .= '<div id="response_div" class="alert" role="alert" style="display:none;"></div>';
     $content .= '<form id="ajaxform">';
     $content .= '<div class="form-row">';
     $content .= '<div class="col-sm-6 mb-4">';
